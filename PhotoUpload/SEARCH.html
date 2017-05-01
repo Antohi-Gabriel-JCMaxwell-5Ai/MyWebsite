@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+	<title>Gallary</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/templatemo_style.css" rel="stylesheet" type="text/css">
+
+
+
+
+</head>
+
+
+<body style="background-color:white;">
+
+
+		<div class="content-container" >
+
+			<header>
+			<!--<h1 class="center-text">Gallary at glance</h1>-->
+
+		</header>
+    <form action="index.php" method="post"  enctype="multipart/form-data">
+
+    Enter the Image Name:<input type="text" name="image_name" id="" /><br />
+    <input name="image" id="image" accept="image/JPEG" type="file"><br /><br />
+    <input type="submit" value="submit" name="submit" />
+    </form>
+    <br /><br />
+    <!-- this form is user to display all the images-->
+    <form action="index.php" method="post"  enctype="multipart/form-data">
+    Retrive all the images:
+    <input type="submit" value="submit" name="retrive" />
+    </form>
+
+
+
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/templatemo_script.js"></script>
+    <script type="text/javascript">
+    	$(function () {
+    		$('.pagination li').click(changePage);
+    		$('.portfolio-item').magnificPopup({
+    			type: 'image',
+    			gallery:{
+    				enabled:true
+    			}
+    		});
+    	});
+    </script>
+    </body>
+    </html>
