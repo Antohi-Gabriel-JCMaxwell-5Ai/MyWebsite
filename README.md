@@ -1,4 +1,4 @@
-# Picturesque
+# :camera Picturesque
 
 Picturesque is a website that is going to be used as a school project.
 
