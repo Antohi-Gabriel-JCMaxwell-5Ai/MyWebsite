@@ -8,3 +8,7 @@ Creazione di un sito web che permettera agli fotografi oppure agli appasionati, 
 
 ## Linguaggi usati
 HTML-HTML5-PHP-JAVASCRIPT-CSS
+
+## Gruppi di supporto
+°Gioannini Sara
+°Mari Nicolò
