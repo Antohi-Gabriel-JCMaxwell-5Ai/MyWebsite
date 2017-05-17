@@ -1,14 +1,15 @@
-# MyWebsite
+# Picturesque
 
-Questo e il sito che usero come progetto per l'area di progetto di fine anno.
+Picturesque is a website that is going to be used as a school project.
 
-## Descrizione 
+## Description 
 
-Creazione di un sito web che permettera agli fotografi oppure agli appasionati, di condividere e commentare argomenti collegati al mondo della fotografia.
+Creazion of a website that will allow photographers or enthusiastics to share, learn works about photograhy. 
 
-## Linguaggi usati
+## Languages
 HTML-HTML5-PHP-JAVASCRIPT-CSS
 
-## Gruppi di supporto
-* °Gioannini Sara
-* °Mari Nicolò
+## Support groups
+* Gioannini Sara 
+* Mari Nicolò
+The support groups will periodically control the progress of the project.
